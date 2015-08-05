@@ -1,0 +1,11 @@
+#create_quiz_button{
+    background-color: orange;
+}
+
+#play_quiz_button{
+    background-color: aqua;
+}
+
+#create_quiz{
+    display: none;
+}

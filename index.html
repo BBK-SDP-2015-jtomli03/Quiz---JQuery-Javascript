@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+
+<h1>Quiz</h1>
+
+<p>Welcome to Quiz</p>
+<button id="create_quiz_button">CREATE A QUIZ</button>
+<button id="play_quiz_button">PLAY A QUIZ</button>
+
+<div id="create_quiz">
+    <p>Please enter the folowing information to create your quiz;</p>
+    <form id="create_quiz_form">
+        <div id="quizName_div">
+        Quiz name:<br>
+        <input id="quiz_name" type="text" name="quizname">
+        </div>
+        <br><br>
+        Question:<br>
+        <input id="question" type="text" name="question" required><br>
+        Correct Answer:<br>
+        <input id="correct_answer" type="text" name="correct_answer" required><br>
+        Incorrect Answer 1:<br>
+        <input id="incorrect_answer1" type="text" name="incorrect_answer1" required><br>
+        Incorrect Answer 2:<br>
+        <input id="incorrect_answer2" type="text" name="incorrect_answer2" required>
+        <br>
+        <button id="add_question">ADD ANOTHER QUESTION</button>
+        <button id="submit_quiz">SUBMIT THIS QUIZ</button>
+    </form>
+</div>
+
+
+</body>
+</html>
